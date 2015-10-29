@@ -19,5 +19,23 @@ class NewVisitorTest(unittest.TestCase):
 
         # She is inivited to enter a to-do item straight away
 
+        # She types "Buy peacock feathers" into a text box
+
+        # When she hits enter, the page updates, and now the page lists
+        # "!: Buy peacock feathers" as an item in a to-do lists
+
+        # There is still a text box inviting her to add another item.
+        # She enters "Use peacock feathers to make a fly"
+
+        # The page updates again, and now shows both items on her lists
+
+        # Edith wonders whether the site will remember his list. Then she sees
+        # that the site has generated a unique URL for her -- there is some
+        # explanatory text to that effect.
+
+        # She visits that URL - her to-do list is still there.
+
+        # Satisified, she goes back to sleep
+
 if __name__ == '__main__':
     unittest.main(warnings='ignore')
